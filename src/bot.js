@@ -10,8 +10,8 @@ Terima Kasih Kepada @Alfathdirk @TCR_TEAM\n\
 ****Nekopoi.host Running****");
 
 const auth = {
-	authToken: ' Toket Taro Sini Eh Token Maksudnya ',
-	certificate: ' Taro Cerf Disini ',
+	authToken: 'EmhoXArc6nkV2uOskxB5.kD1O8IADjGU+e7sXThdonq.Fjn8yMBmD5SR5TF7cvtVkmzAwHYMBNY+NUxPeu6J270=',
+	certificate: 'dcf8629135437a20c15cde499d07b62f7795ac2ce02be5b8c34fa9d4dcb7668c',
 }
 // let client =  new LineConnect(auth);
 let client =  new LineConnect();
