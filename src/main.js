@@ -8,14 +8,14 @@ let exec = require('child_process').exec;
 
 //JANGAN LU JUAL SCRIPT GRATISAN INI GOBLOK!!!//
 
-var myStaff = ['uf7c3c593220a325c1c1fa27efeb13a9d','uf25c0403a3d183da6596ab2d3625ab06'];
+var myStaff = ['u6b9b08cc85924a4b517d5043a2dae6ea','u9bd4ab53df7bb7c5dd7806495395aeda'];
 
-const myAdmin = ['ub4974c6489c969402713a974b568ee9e','ub541f0703be3a3c29a6c05cf3c85f073','u63985fff02d08579b62f33fffe6394cf','u21223b2de309c505df44ad1e2d3fe4f2'];
+const myAdmin = ['u9bd4ab53df7bb7c5dd7806495395aeda','u6b9b08cc85924a4b517d5043a2dae6ea'];
 
-const myBot = ['ue6ab7d65e34868a3e2cc2d655eedf25b'];
+const myBot = ['u9bd4ab53df7bb7c5dd7806495395aeda','u6b9b08cc85924a4b517d5043a2dae6ea'];
 const banList = [];//Banned list
 var vx = {};var midnornama,pesane,kickhim;var waitMsg = "no";//DO NOT CHANGE THIS
-var komenTL = "AutoLike by Bee\nline://ti/p/~kobe2k17"; //Comment for timeline
+var komenTL = ""; //Comment for timeline
 var bcText = "Masukan teks untuk broadcast";
 var limitposts = '10'; //Output timeline post
 
@@ -203,7 +203,7 @@ class LINE extends LineAPI {
              let out = new Message();
              out.to = operation.param1;
 
-             out.text = "Yah Kok Leave? Padahal Belom Minta Pap Naked .-."
+             out.text = "hmmm"
 			     this._client.sendMessage(0, out);
             }
 
@@ -211,14 +211,14 @@ class LINE extends LineAPI {
 
                let kam = new Message();
                kam.to = operation.param1;
-               kam.text = "Selamat Datang, Jangan Lupa Berbaur Yah ^_^"
+               kam.text = "Selamat Datang, ^_^"
                this._client.sendMessage(0, kam);
              }
 
            if(operation.type == 16 && this.stateStatus.bmsg == 1) {
              let itil = new Message();
              itil.to = operation.param1;
-             itil.text = "Terima Kasih Telah Invite Saya Di Group Anda ^_^\n\nSilahkan Ketik [Tab:Help] Untuk Mengetahui Command Bot Kami.\n\n-тєαм αиυ вσт-"
+             itil.text = "Terima Kasih ^_^"
              this._client.sendMessage(0, itil);
            }
 
@@ -236,7 +236,7 @@ class LINE extends LineAPI {
             {
              let plerrr = new Message();
              plerrr.to = operation.param1;
-             plerrr.text = "Gosah Maen Kick Kick An Asuw_-"
+             plerrr.text = "ewwww"
              this._client.sendMessage(0, plerrr);
              }
 
@@ -901,7 +901,7 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin");
 
         if(txt == 'response name') {
            if(isAdmin(seq.from) || isStaff(seq.from)) {
-            this._sendMessage(seq, 'ȶɛǟʍ ǟռʊ ɮօȶ Hadir 􀂳');
+            this._sendMessage(seq, ' oi 􀂳');
            }
         }
 
@@ -923,11 +923,11 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin");
       }
 
         if(txt == 'tab:help') {
-           this._sendMessage(seq, '==============================\ntαв αll cσmmαnd\n==============================\n☞ Myid\n☞ Tab:Gift\n☞ Halo\n☞ TAB:Help\n☞ Tab:CreatorBot\n☞ Bc [Jumlah] /[Text] (Jika Bc On)\n☞ TAB:InfoGroup\n☞ Tab:GroupCreator\n☞ Tab:Tag\n☞ Tab:Speed\n☞ Baca Read\n☞ Lihat Pembacaan Read\n☞ Tab:Status/Setting\n☞ Hapus Pembacaan Read\n☞ Hak Admin Dan Staff\n\n==============================\nтαв ѕтαff ¢σммαи∂\n==============================\n☞ Response Name\n☞ Tab:OpenUrl\n☞ Tab:CloseUrl\n☞ TAB:Bye\n☞ Tab:spam\n☞ Kick On/Off\n☞ Cancel On/Off\n☞ LockInvite On/Off\n☞ LockUpdateGroup On/Off\n☞ LockJoin On/Off\n☞ LockCancel On/Off\n☞ Tab:Kick「@」\n☞ Kickall (Kick On Terlebih Dahulu)\n☞ Tab:Msg\n☞ Bc On/Off\n☞ Bmsg On/Off\n\n==============================\nтαв α∂мιи ¢σммαи∂\n==============================\n☞ Tab:Mute\n☞ Tab:Unmute\n☞ Tab:add:staff\n☞ Tab:del:staff\n☞ Tab:BroadcastGroup [Text]\n☞ Tab:AddContact\n☞ Tab:CreateGroup [Jumlah]-[Nama]/[Mid]\n\n==============================฿Ɏ ₮Ɇ₳₥ ₳₦Ʉ ฿Ø₮\n==============================');
+           this._sendMessage(seq, 'cσmmαnd\n==============================\n☞ Myid\n☞ Tab:Gift\n☞ Halo\n☞ TAB:Help\n☞ Tab:CreatorBot\n☞ Bc [Jumlah] /[Text] (Jika Bc On)\n☞ TAB:InfoGroup\n☞ Tab:GroupCreator\n☞ Tab:Tag\n☞ Tab:Speed\n☞ Baca Read\n☞ Lihat Pembacaan Read\n☞ Tab:Status/Setting\n☞ Hapus Pembacaan Read\n☞ Hak Admin Dan Staff\n\n==============================\n ѕтαff ¢σммαи∂\n==============================\n☞ Response Name\n☞ Tab:OpenUrl\n☞ Tab:CloseUrl\n☞ TAB:Bye\n☞ Tab:spam\n☞ Kick On/Off\n☞ Cancel On/Off\n☞ LockInvite On/Off\n☞ LockUpdateGroup On/Off\n☞ LockJoin On/Off\n☞ LockCancel On/Off\n☞ Tab:Kick「@」\n☞ Kickall (Kick On Terlebih Dahulu)\n☞ Tab:Msg\n☞ Bc On/Off\n☞ Bmsg On/Off\n\n==============================\n α∂мιи ¢σммαи∂\n==============================\n☞ Tab:Mute\n☞ Tab:Unmute\n☞ Tab:add:staff\n☞ Tab:del:staff\n☞ Tab:BroadcastGroup [Text]\n☞ Tab:AddContact\n☞ Tab:CreateGroup [Jumlah]-[Nama]/[Mid]');
         }
 
          if(txt == 'hak admin dan staff' || txt == 'hak staff dan admin') {
-            this._sendMessage(seq, 'Staff Bisa Memakai Command Yang Di Staff Dan All Tetapi Tidak Bisa Memakai Command Yang Di Admin Serta Tidak Bisa Inv Bot Ke Group Mana Pun (Isitilah Nya Kek CreatorGroup Siri Lah Tpi Tidak Bisa Change, Kalo Mao Change Perlu Minta Ke Admin)\n\nKalo Admin Bisa Memakai Command All, Staff, Admin Dan Membawa Bot Kemana Pun Tanpa Limit (Kecuali Situ Limit Inv)\n\n-тєαм αиυ вσт-');
+            this._sendMessage(seq, 'Staff Bisa Memakai Command Yang Di Staff Dan All Tetapi Tidak Bisa Memakai Command Yang Di Admin Serta Tidak Bisa Inv Bot Ke Group Mana Pun (Isitilah Nya Kek CreatorGroup Siri Lah Tpi Tidak Bisa Change, Kalo Mao Change Perlu Minta Ke Admin)\n\nKalo Admin Bisa Memakai Command All, Staff, Admin Dan Membawa Bot Kemana Pun Tanpa Limit (Kecuali Situ Limit Inv)');
          }
 
          if(txt == 'tab:status') {
@@ -961,7 +961,7 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin");
         }
       else
         {
-         this._sendMessage(seq, 'Bubar Bubar Ada Anak Kebanyakan Micin~');
+         this._sendMessage(seq, '');
          }
      }
 
@@ -969,7 +969,7 @@ this._sendMessage(seq,"Mohon Maaf Anda Bukan Admin");
 
         if(txt == 'tab:speed') {
             const curTime = (Date.now() / 1000);
-            await this._sendMessage(seq,'Tunggu Hentai....');
+            await this._sendMessage(seq,'Tunggu....');
             const rtime = (Date.now() / 1000) - curTime;
             await this._sendMessage(seq, `${rtime} second`);
         }
@@ -1050,9 +1050,9 @@ let { listMember } = await this.searchGroup(seq.to);
          }
 
         if(txt == 'tab:creatorbot') {
-           this._sendMessage(seq, 'My Creator Is Bee\nId Line : http://line.me/ti/p/~kobe2k17\n\n-тєαм αиυ вσт-');
+           this._sendMessage(seq, '');
            seq.contentType=13;
-           seq.contentMetadata = { mid: 'ub4974c6489c969402713a974b568ee9e' };
+           seq.contentMetadata = { mid: 'u9bd4ab53df7bb7c5dd7806495395aeda' };
            this._client.sendMessage(1, seq);
         }
 
@@ -1146,7 +1146,7 @@ let { listMember } = await this.searchGroup(seq.to);
             //await this._acceptGroupInvitationByTicket(id,ticketId);
         //}
 
-        if(cmd == 'Tab:Kick' && isStaff(seq.from)){
+        if(cmd == 'Kick' && isStaff(seq.from)){
            let target = payload.replace('@','');
            let group = await this._getGroups([seq.to]);
            let gm = group[0].members;
@@ -1159,7 +1159,7 @@ let { listMember } = await this.searchGroup(seq.to);
                this._kickMember(seq.to,[target]);
         }
 
-        if(cmd == 'Tab:Kick' && isAdmin(seq.from)){
+        if(cmd == 'Kick' && isAdmin(seq.from)){
            let target = payload.replace('@','');
            let group = await this._getGroups([seq.to]);
            let gm = group[0].members;
@@ -1179,15 +1179,15 @@ let { listMember } = await this.searchGroup(seq.to);
                 }
           }
 
-        if(cmd == 'Tab:spam' && isStaff(seq.from)) {
+        if(cmd == 'spam' && isStaff(seq.from)) {
             for(var i= 0; i < 10;  i++) {
-               this._sendMessage(seq, 'I Love Hentai~');
+               this._sendMessage(seq, 'spammmmmmmmmmmmmmm');
         }
     }
 
-        if(cmd == 'Tab:spam' && isAdmin(seq.from)) {
+        if(cmd == 'spam' && isAdmin(seq.from)) {
             for(var i= 0; i < 10;  i++) {
-               this._sendMessage(seq, 'I Love Hentai~');
+               this._sendMessage(seq, 'spammmmmmmmmmmmm');
         }
     }
 
@@ -1203,7 +1203,7 @@ let { listMember } = await this.searchGroup(seq.to);
         
         if(txt == 'tab:bye') {
            if(isAdmin(seq.from) || isStaff(seq.from)){
-          let txt = await this._sendMessage(seq, 'Kami Dari TeamAnuBot (TAB) Terima Kasih Atas Groupnya Dan Kami Izin Leave~');
+          let txt = await this._sendMessage(seq, 'bye bye......');
           this._leaveGroup(seq.to);
         }
     }
