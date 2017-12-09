@@ -8,7 +8,7 @@ let exec = require('child_process').exec;
 
 //JANGAN LU JUAL SCRIPT GRATISAN INI GOBLOK!!!//
 
-var myStaff = ['u6b9b08cc85924a4b517d5043a2dae6ea','u9bd4ab53df7bb7c5dd7806495395aeda'];
+var myStaff = ['u6b9b08cc85924a4b517d5043a2dae6ea','u9bd4ab53df7bb7c5dd7806495395aed'];
 
 const myAdmin = ['u9bd4ab53df7bb7c5dd7806495395aeda','u6b9b08cc85924a4b517d5043a2dae6ea'];
 
