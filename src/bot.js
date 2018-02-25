@@ -1,23 +1,30 @@
 const LineConnect = require('./connect');
-let LINE = require('./main.js');
+const LINE = require('./main.js');
 console.info("\n\
 =========================================\n\
-BotName: LINE Etot JS\n\
-Version: 0.2.1\n\
-Terima Kasih Kepada @Alfathdirk @TCR_TEAM\n\
+BotName: LINE Alphat JS\n\
+Version: FORKED VERSION\n\
+Thanks to @Alfathdirk @TCR_TEAM\n\
 =========================================\n\
-\nNOTE : Ini Adalah AlphatJS Lama Buatan @Alfathdirk @TCR_TEAM Dan Ini Telah Dikembangin Oleh @TAB_TEAM\nTolong Untuk Tidak Perjual-Belikan Script Ini!\n\
-****Nekopoi.host Running****");
+\nNOTE : This bot is made by @Alfathdirk @TCR_TEAM and has been forked by @GoogleX !\n\
+***Copyright belongs to the author***");
 
+/*
+| This constant is for auth/login
+| 
+| Change it to your authToken / your email & password
+*/
 const auth = {
-	authToken: 'EmhoXArc6nkV2uOskxB5.kD1O8IADjGU+e7sXThdonq.Fjn8yMBmD5SR5TF7cvtVkmzAwHYMBNY+NUxPeu6J270=',
-	certificate: 'dcf8629135437a20c15cde499d07b62f7795ac2ce02be5b8c34fa9d4dcb7668c',
+	authToken: '',
+	certificate: '',
+	email: '',
+	password: ''
 }
-// let client =  new LineConnect(auth);
+
 let client =  new LineConnect();
+//let client =  new LineConnect(auth);
 
 client.startx().then(async (res) => {
-	
 	while(true) {
 		try {
 			ops = await client.fetchOps(res.operation.revision);
@@ -30,5 +37,6 @@ client.startx().then(async (res) => {
 				LINE.poll(ops[op])
 			}
 		}
+		//LINE.aLike() //AutoLike (CAUSE LAG)
 	}
 });
